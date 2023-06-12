@@ -56,6 +56,7 @@ const config = {
     '@pancakeswap/uikit',
     '@pancakeswap/farms',
     '@pancakeswap/pools',
+    '@pancakeswap/position-managers',
     '@pancakeswap/localization',
     '@pancakeswap/hooks',
     '@pancakeswap/utils',
@@ -185,7 +186,7 @@ const config = {
         source: '/images/tokens/:address',
         destination: 'https://tokens.pancakeswap.finance/images/:address',
         permanent: false,
-      }
+      },
     ]
   },
   webpack: (webpackConfig, { webpack, isServer }) => {
