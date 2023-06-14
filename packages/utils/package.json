@@ -6,6 +6,7 @@
   },
   "private": true,
   "peerDependencies": {
+    "url-parse": "^1.5.10",
     "viem": "^1.0.7",
     "date-fns": "^2.29.3",
     "styled-components": "^5.3.3",
@@ -17,6 +18,8 @@
     "@pancakeswap/aptos-swap-sdk": "workspace:*"
   },
   "devDependencies": {
+    "url-parse": "^1.5.10",
+    "@types/url-parse": "^1.4.8",
     "viem": "^1.0.7",
     "styled-components": "^5.3.3",
     "@types/styled-components": "^5.1.26",
